@@ -1,0 +1,48 @@
+.productImg {
+    width: 150px;
+    height: 150px;
+}
+
+.productCart {
+    width: 150px;
+    margin-right: 30px ;
+    
+
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+.price span{
+    font-size: 10px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.productCart p {
+    padding-right: 30px;
+}
+
+.nameProduct {
+    font-size: 18px;
+    color: grey;
+    display: flex;
+}
+
+.productCart button {
+    width: 100%;
+    border: none;
+    background-color: rgb(60, 122, 255);
+    color: white;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.productWrap{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
